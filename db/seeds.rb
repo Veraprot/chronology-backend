@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+jacket = User.create( username: "Jaket");
+bottom = User.create( username: "Bottom");
+top = User.create( username: "Top");
