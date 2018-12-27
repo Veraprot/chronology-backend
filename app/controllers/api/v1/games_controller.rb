@@ -10,9 +10,6 @@ class Api::V1::GamesController < ApplicationController
     render json: @cards, status: :created
   end 
 
-  def create 
-  end 
-
   def game_params
     params.require(:game).permit(:startDate, :endDate)
   end
