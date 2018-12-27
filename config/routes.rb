@@ -8,6 +8,7 @@ Rails.application.routes.draw do
       resources :games #do
       #   resources: items
       # end
+      post 'games/timeline', to: 'games#create_timeline'
     end
   end 
 end
